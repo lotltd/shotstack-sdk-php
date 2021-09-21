@@ -1,5 +1,5 @@
 {
-    "name": "shotstack/shotstack-sdk-php",
+    "name": "lotltd/shotstack-sdk-php",
     "description": "PHP SDK for Shotstack, the cloud video editing API",
     "type": "library",
     "license": "MIT",
