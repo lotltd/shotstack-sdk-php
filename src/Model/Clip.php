@@ -454,7 +454,7 @@ class Clip implements ModelInterface, ArrayAccess, \JsonSerializable
      */
     public function setStart($start)
     {
-        $this->container['start'] = $start;
+        $this->container['start'] = round($start, 2);
 
         return $this;
     }
@@ -478,7 +478,7 @@ class Clip implements ModelInterface, ArrayAccess, \JsonSerializable
      */
     public function setLength($length)
     {
-        $this->container['length'] = $length;
+        $this->container['length'] = round($length, 2);
 
         return $this;
     }

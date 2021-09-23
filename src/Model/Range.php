@@ -248,7 +248,7 @@ class Range implements ModelInterface, ArrayAccess, \JsonSerializable
             throw new \InvalidArgumentException('invalid value for $start when calling Range., must be bigger than or equal to 0.');
         }
 
-        $this->container['start'] = $start;
+        $this->container['start'] = round($start, 2);
 
         return $this;
     }
@@ -277,7 +277,7 @@ class Range implements ModelInterface, ArrayAccess, \JsonSerializable
             throw new \InvalidArgumentException('invalid value for $length when calling Range., must be bigger than or equal to 0.');
         }
 
-        $this->container['length'] = $length;
+        $this->container['length'] = round($length, 2);
 
         return $this;
     }
