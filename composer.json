@@ -10,7 +10,7 @@
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "guzzlehttp/guzzle": "*"
+        "guzzlehttp/guzzle": "7.1.*"
     },
     "autoload": {
         "psr-4": { "Shotstack\\Client\\" : "src/" }
